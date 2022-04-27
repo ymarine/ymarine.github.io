@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EIZOエンジニアリング株式会社 on </title>
+    <link>https://ymarine.github.io/contributors/eizo-engineering/</link>
+    <description>Recent content in EIZOエンジニアリング株式会社 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:50:45 +0000</lastBuildDate><atom:link href="https://ymarine.github.io/contributors/eizo-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ここはタイトルを表示します 👋</title>
+      <link>https://ymarine.github.io/blog/2020/11/04/%E3%81%93%E3%81%93%E3%81%AF%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%BE%E3%81%99/</link>
+      <pubDate>Wed, 04 Nov 2020 09:19:42 +0100</pubDate>
+      
+      <guid>https://ymarine.github.io/blog/2020/11/04/%E3%81%93%E3%81%93%E3%81%AF%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%BE%E3%81%99/</guid>
+      <description> ここから
+この部分に内容を記載する # Markdown利用可  見出し # テスト   数字付きリスト1 数字付きリスト2 数字付きリスト3  画像を表示する場合 # 以下の記述で画像を表示したい場合、mdファイルはindex.mdまたは_index.mdという名前でなくてはならない 希望の階層にフォルダを作り、その中にindex.mdと画像ファイルを設置する 上部設定のimage:の部分で画像ファイル名を指定 その上で以下の記述を行うと画像が表示される  ![代替テキスト](画像ファイル名.拡張子 &amp;quot;ここに文字を書くと画像の下に表示&amp;quot;)
+ここに文字を書くと画像の下に表示複数画像を表示こういう記述も使えるらしい
+ &amp;lt;img src=&amp;quot;image1.png&amp;quot; alt=&amp;quot;画像1&amp;quot;&amp;gt;![画像1](image1.png)   ここまで
+ </description>
+    </item>
+    
+  </channel>
+</rss>

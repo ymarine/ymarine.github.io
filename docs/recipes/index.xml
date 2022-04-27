@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>れしrecipe on </title>
+    <link>https://ymarine.github.io/docs/recipes/</link>
+    <description>Recent content in れしrecipe on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 26 Apr 2022 16:07:52 +0900</lastBuildDate><atom:link href="https://ymarine.github.io/docs/recipes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>レシピのテスト</title>
+      <link>https://ymarine.github.io/docs/recipes/recipes-test/</link>
+      <pubDate>Tue, 26 Apr 2022 16:07:52 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/recipes/recipes-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>画像の表示テスト</title>
+      <link>https://ymarine.github.io/docs/recipes/imagetest/</link>
+      <pubDate>Wed, 27 Apr 2022 14:40:20 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/recipes/imagetest/</guid>
+      <description>このフォルダのパス
+\docs\recipes\imagetest\index.md このフォルダのURL
+http://localhost:1313/docs/recipes/imagetest/  index.mdの上位のフォルダの名前がそのままURLになる  画像の表示方法 index.mdと同じ階層に画像20220418-1.PNG、20220418-2.PNGを置いた状態で以下を記述
+![images1](20220418-1.PNG &amp;quot;画像1&amp;quot;)![images2](20220418-2.PNG &amp;quot;画像2&amp;quot;) 結果、以下のように表示される
+画像1画像2</description>
+    </item>
+    
+    <item>
+      <title>見出しとON THIS PAGEのテスト</title>
+      <link>https://ymarine.github.io/docs/recipes/recipes-test_3/</link>
+      <pubDate>Tue, 26 Apr 2022 17:35:11 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/recipes/recipes-test_3/</guid>
+      <description>以下の設定は ./config/_default/markup.toml の[tableofontents] にて変更可能
+見出し1 # この項目は右側のON THIS PAGEに載らない  見出し2 # この項目は右側のON THIS PAGEに載る 項目2 項目3 項目4  見出し3 # この項目は右側のON THIS PAGEに載る  見出し4 # この項目は右側のON THIS PAGEに載らない #ボタンでのジャンプには対応  見出し5 # この項目は右側のON THIS PAGEに載らない #ボタンでのジャンプに対応していない  見出し6 # この項目は右側のON THIS PAGEに載らない ここまでが見出しとして対応している  ####### 見出し7は対応しない</description>
+    </item>
+    
+    <item>
+      <title>Recipes Test_2</title>
+      <link>https://ymarine.github.io/docs/recipes/recipes-test_2/</link>
+      <pubDate>Tue, 26 Apr 2022 17:30:33 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/recipes/recipes-test_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo server</title>
+      <link>https://ymarine.github.io/docs/recipes/hugo-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/recipes/hugo-server/</guid>
+      <description>URLメモ # localhost:1313 Hugo theme設定方法 Doks Doks-child-theme Doks-Starter theme  新規サイト作成 #hugo new site フォルダ名  作成したフォルダに移動 #cd C:\Users\229023\Hugo\Sites\フォルダ名  テーマのインストール方法 #git clone テーマのURL themes/テーマのフォルダ名   こちらはうまくいかない  git submodule add テーマのURL themes/テーマのフォルダ名   ローカルでサイトを動かす サイトのあるフォルダに移動して行う  npm run start  hugo server   新規コンテンツ作成  C:\Users\229023\Hugo\Sites\test\my-doks-site\content\ja
+以下のパスを指定する
+npm run create フォルダ名\ファイル名.md  多言語対応 # MkDocs DeepL MarkDownDeepL googleTranslate i18n ↑の参考 Nice Translator  pip インストール #pip install ライブラリ名 --proxy proxy.</description>
+    </item>
+    
+  </channel>
+</rss>

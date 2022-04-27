@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>プロローグ on </title>
+    <link>https://ymarine.github.io/docs/prologue/</link>
+    <description>Recent content in プロローグ on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://ymarine.github.io/docs/prologue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>導入</title>
+      <link>https://ymarine.github.io/docs/prologue/introduction/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/prologue/introduction/</guid>
+      <description>Doksの開始方法 #Doksを使い始めるには、主に2つの方法があります。
+チュートリアル #👉 チュートリアルは、初心者から中級者向けです。 Tutorialでは、新しいDoksプロジェクトを開始する方法を一つ一つ説明しています。
+クイックスタート #👉 クイックスタートは、中級者から上級者を対象としています。 Quick Startでは、新しいDoksプロジェクトを開始する方法を1ページで要約しています。
+更に高度な利用を行いたい場合 #レシピ、リファレンスガイド、拡張機能、ショーケースがあります。
+レシピ #Recipesでは、Doksで一般的な操作を実行する方法についての説明が確認できます。
+リファレンスガイド #Reference Guidesでは、Doksの詳細なカスタマイズ方法を学ぶことが出来ます。
+拡張機能 #Extensionsには、Doksに拡張機能を追加する方法の説明があります。
+ショーケース #Showcaseでは、他の方がDoksで構築したものを確認出来ます。
+貢献する #Contributingでは、Doksに貢献する方法が確認できます。
+ヘルプ #Helpでは、Doksのヘルプが確認できます。</description>
+    </item>
+    
+    <item>
+      <title>クイックスタート</title>
+      <link>https://ymarine.github.io/docs/prologue/quick-start/</link>
+      <pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/prologue/quick-start/</guid>
+      <description>要件 #Doksはnpmを利用しています。
+npmを利用することで、依存関係の管理を一元化し、リソースの更新、ツール、プラグインの構築、スクリプトの構築を容易にしています。
+npmの更新方法
+ あなたのプラットフォームに Node.jsのダウンロードとインストールを行って下さい。この中にnpmも含まれています。  新しいDoksプロジェクトの開始方法 # 新規サイトを作成します。 ディレクトリを変更します。 依存関係をインストールします。 開発サーバーを起動します。  新規サイトの作成 #Doksでは、child themeとstarter themeが利用できます。
+ 多くのカスタマイズをしない予定の場合、または将来Doksの更新が必要な場合は、Doksのchild themeを使用します。 多くのカスタマイズを計画している場合、または将来のDoksの更新が必要でない場合は、Doksのstarter themeを使用してください。  良く分からない場合は？ Doksのchild themeを使用してください。
+Doksのchild themeの入手 #git clone https://github.com/h-enk/doks-child-theme.git my-doks-site Doksのstarter themeの入手 #git clone https://github.com/h-enk/doks.git my-doks-site ディレクトリを変更 #cd my-doks-site 依存関係をインストールする #npm install 開発サーバーの起動 #npm run start Doksは、通常は http://localhost:1313からアクセスできるHugo開発Webサーバーで起動します。 変更を保存すると、ブラウザで自動的に更新されます。
+その他のコマンド #Doksには、一般的な操作用のコマンドが実装されています。
+詳しくはコマンド集を参照してください。</description>
+    </item>
+    
+    <item>
+      <title>コマンド集</title>
+      <link>https://ymarine.github.io/docs/prologue/commands/</link>
+      <pubDate>Tue, 13 Oct 2020 15:21:01 +0200</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/prologue/commands/</guid>
+      <description>💡 あなたは `./package.json`.に含まれるスクリプトによりコマンドを変更することができます。 create #サイトの新しいコンテンツを作成します。
+npm run create [path] [flags] Hugoのドキュメント hugo newも参照してください。
+lint #scripts、styles、およびmarkdownにエラーがないか確認します。
+npm run lint scripts #scriptsにエラーがないか確認します。
+npm run lint:scripts [-- --fix] styles #stylesにエラーがないか確認します。
+npm run lint:styles [-- --fix] markdown #markdownにエラーがないか確認します。
+npm run lint:markdown [-- --fix] clean #一時ディレクトリを削除します。
+npm run clean start #ローカル開発サーバーを起動します。
+npm run start build #本番用のWebサイトを構築します。
+npm run build functions #Lambda関数をビルドします。</description>
+    </item>
+    
+    <item>
+      <title>フォルダテスト</title>
+      <link>https://ymarine.github.io/docs/prologue/folder-test/foldertest/</link>
+      <pubDate>Mon, 25 Apr 2022 12:55:14 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/prologue/folder-test/foldertest/</guid>
+      <description>ここに内容を記載します。 #</description>
+    </item>
+    
+    <item>
+      <title>MarkDownのテスト用</title>
+      <link>https://ymarine.github.io/docs/prologue/markdowntest/</link>
+      <pubDate>Mon, 25 Apr 2022 12:14:50 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/prologue/markdowntest/</guid>
+      <description>ファイルのパス # \docs\prologue\MarkDowntest.md  テスト2 # テストテスト  test copy command リンクのテスト # Doks  数式記述テスト #$$ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right). $$
+太字・斜体・訂正線 #これは 太字 です。
+これは 太字 です。
+これは 斜体 です。
+これは 斜体 です。
+これは 訂正線です。
+チェックリスト # これからやるタスク 完了したタスク  水平線 #     テーブル #   TH TH     TD TD   TD TD    絵文字 #😄</description>
+    </item>
+    
+  </channel>
+</rss>

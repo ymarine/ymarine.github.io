@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>https://ymarine.github.io/en/blog/2022/04/25/say-hello-to-doks2/</loc>
+      <lastmod>2022-04-25T12:04:39+09:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="ja"
+                  href="https://ymarine.github.io/blog/2022/04/25/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AF%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%81%AE%E4%B8%AD%E3%81%AB%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://ymarine.github.io/en/blog/2022/04/25/say-hello-to-doks2/"
+                  />
+    </url>
+    
+    <url>
+      <loc>https://ymarine.github.io/en/blog/2020/11/04/say-hello-to-doks/</loc>
+      <lastmod>2020-11-04T09:19:42+01:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="ja"
+                  href="https://ymarine.github.io/blog/2020/11/04/%E3%81%93%E3%81%93%E3%81%AF%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%BE%E3%81%99/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://ymarine.github.io/en/blog/2020/11/04/say-hello-to-doks/"
+                  />
+    </url>
+    </urlset>

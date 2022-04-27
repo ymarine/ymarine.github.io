@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>★ヘルプ★ on </title>
+    <link>https://ymarine.github.io/docs/help/</link>
+    <description>Recent content in ★ヘルプ★ on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="https://ymarine.github.io/docs/help/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>更新方法</title>
+      <link>https://ymarine.github.io/docs/help/how-to-update/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/help/how-to-update/</guid>
+      <description>💡 詳細については semantic versioning と advanced range syntax.を参照してください。 パッケージが古くなっていないかを定期的に確認してください #npm outdatedコマンドは、レジストリをチェックして、インストールされている（または特定の）パッケージが現在古くなっているかどうかを確認します。
+npm outdated [[&amp;lt;@scope&amp;gt;/]&amp;lt;pkg&amp;gt; ...] パッケージの更新 #npm updateコマンドは、semverに従って、すべてのパッケージを最新バージョン（tag configで指定）に更新します。
+npm update [&amp;lt;pkg&amp;gt;...] </description>
+    </item>
+    
+    <item>
+      <title>トラブルシューティング</title>
+      <link>https://ymarine.github.io/docs/help/troubleshooting/</link>
+      <pubDate>Thu, 12 Nov 2020 15:22:20 +0100</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/help/troubleshooting/</guid>
+      <description>npmパッケージの更新で問題が発生しました。 #./node_modules フォルダを削除し、もう一度実行してください。
+npm install キャッシュに関する問題が発生しました。 #一時ディレクトリを削除してください。
+npm run clean </description>
+    </item>
+    
+    <item>
+      <title>FAQ(えふえーきゅー)</title>
+      <link>https://ymarine.github.io/docs/help/faq/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/help/faq/</guid>
+      <description>パス #\content\ja\docs\help\faq.md
+URL #http://localhost:1313/docs/help/faq/
+Doksとは？ #Doks は、静的サイトジェネレータHugoのドキュメント用テーマとしてHyasによって作られた Hyas theme です。
+フッター通知が出るのですが？ #そのままにしておいてください。
+検索のためのキーボードショートカットは何ですか？？ # フォーカス: Ctrl + / 選択: ↓ and ↑ 開く: Enter 閉じる: Esc  関連するその他のドキュメントは？ # Netlify Hugo  サポートを受けることはできますか？ #以下のサイトで質問をすることができます。
+ Netlify Community Hugo Forums Doks Discussions  作成者に連絡を取ることはできますか？ #以下のサイトでh-enkにメッセージを送信してください。
+ Netlify Community Hugo Forums Doks Discussions  </description>
+    </item>
+    
+    <item>
+      <title>現状解決できない問題</title>
+      <link>https://ymarine.github.io/docs/help/issue/</link>
+      <pubDate>Wed, 27 Apr 2022 14:59:08 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/help/issue/</guid>
+      <description>現状解決できない問題 # index.mdまたは_index.mdという名前のファイルにしか画像が表示できない問題 &amp;ndash; index.mdという名前のファイルを配下に持つフォルダを作成し、その中に画像ファイルを格納するという形であれば可能  参考1
+参考2
+ 上部検索ボックスが英語ファイルにしか対応していない  </description>
+    </item>
+    
+    <item>
+      <title>Docsメニュー備忘録</title>
+      <link>https://ymarine.github.io/docs/help/customize/</link>
+      <pubDate>Wed, 27 Apr 2022 10:14:09 +0900</pubDate>
+      
+      <guid>https://ymarine.github.io/docs/help/customize/</guid>
+      <description>公式(と他の方が書いた日本語のブログ)の説明から予想された動き #\config_default\menus\menus.ja.toml
+の[[docs]]部分によりDocs部分のメニュー内容や表示順が決まる
+[[docs]]name = 表示名weight = 表示順(数字の小さい方が上)identifier = 下位の階層から指定する際に使うurl = Docsの該当する部分を押したらこのURLに飛べる 例えば
+[[docs]]name = &amp;quot;プロローグ&amp;quot;weight = 10identifier = &amp;quot;prologue&amp;quot;url = &amp;quot;/docs/prologue/&amp;quot;[[docs]]name = &amp;quot;レシピ&amp;quot;weight = 20identifier = &amp;quot;recipes&amp;quot;url = &amp;quot;/docs/recipes/&amp;quot;[[docs]]name = &amp;quot;ヘルプ&amp;quot;weight = 60identifier = &amp;quot;help&amp;quot;url = &amp;quot;/docs/help/&amp;quot; の場合、
+&amp;gt;プロローグ&amp;gt;下位階層&amp;gt;レシピ&amp;gt;下位階層&amp;gt;ヘルプ&amp;gt;下位階層 となると予想
+しかし実際は
+&amp;gt;PROLOGUE&amp;gt;下位階層&amp;gt;HELP&amp;gt;下位階層&amp;gt;RECIPES&amp;gt;下位階層 並び順、メニュー名が想定と違う</description>
+    </item>
+    
+  </channel>
+</rss>

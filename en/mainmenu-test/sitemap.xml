@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>https://ymarine.github.io/en/mainmenu-test/mainmenu-test/</loc>
+      <lastmod>2022-04-25T12:14:50+09:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="ja"
+                  href="https://ymarine.github.io/mainmenu-test/mainmenu-test/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://ymarine.github.io/en/mainmenu-test/mainmenu-test/"
+                  />
+    </url>
+    </urlset>
